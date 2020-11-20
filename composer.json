@@ -19,8 +19,13 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-      "ext-pdo": "*",
+        "php": ">=7.2.5",
+        "ext-pdo": "*",
         "illuminate/database": "^8.15",
         "twig/twig": "^3.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "process-timeout": 900
     }
 }
