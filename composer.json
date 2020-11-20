@@ -1,0 +1,26 @@
+{
+    "name": "ademozmermer/php-simple-mvc",
+    "description": "Adem Özmermer MVC",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adem Özmermer",
+            "email": "ademozmermer27@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "System\\": "System/"
+        },
+        "files": ["System/Library/Helpers/Helper.php"]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+      "ext-pdo": "*",
+        "illuminate/database": "^8.15",
+        "twig/twig": "^3.0"
+    }
+}
